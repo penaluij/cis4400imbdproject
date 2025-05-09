@@ -1,0 +1,10 @@
+Field Name,Data Type,Description,Source Column,Destination Column
+movie_id,VARCHAR,Unique IMDb movie identifier,tconst,movie_id
+title,VARCHAR,Movie title,primaryTitle,title
+release_year,INT,Year the movie was released,startYear,release_year
+genres,VARCHAR,Genres of the movie (comma-separated),genres,genres
+rating,FLOAT,Average IMDb rating,averageRating,rating
+num_votes,INT,Number of votes cast,numVotes,num_votes
+director_id,VARCHAR,Unique director identifier,nconst,director_id
+director_name,VARCHAR,Name of the director,primaryName,director_name
+birth_year,INT,Birth year of the director,birthYear,birth_year
