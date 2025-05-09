@@ -1,0 +1,13 @@
+Field Name,Description,Data Type,Source File
+TitleID,Unique identifier for the title (IMDB tconst),String,title.basics.tsv.gz
+Rating,Average rating from IMDb users,Float,title.ratings.tsv.gz
+NumVotes,Number of user votes for the title,Integer,title.ratings.tsv.gz
+Title,Primary title of the movie,String,title.basics.tsv.gz
+Genre,Genres associated with the movie (comma-separated),String,title.basics.tsv.gz
+Release Date,Year the movie was released,Integer,title.basics.tsv.gz
+GenreName,Name of the genre,String,title.basics.tsv.gz
+GenreAverageRating,Average rating across all movies in the genre,Float,Derived
+ActorName,Name of the actor,String,name.basics.tsv.gz
+DirectorName,Name of the director,String,name.basics.tsv.gz
+AverageMovieRating,Average rating of movies by the person,Float,Derived
+BirthYear,Birth year of the actor/director,Integer,name.basics.tsv.gz
